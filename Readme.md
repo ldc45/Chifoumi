@@ -14,4 +14,4 @@ S'il y a égalité, la partie se termine par un match nul.
 A vous de jouer !! ⚔
 
 Cliquez sur le lien ci-dessous pour démarrer une partie ! :
-https://ldc45.github.io/chifoumi/
+<button><a href ="https://ldc45.github.io/chifoumi"></button>   
