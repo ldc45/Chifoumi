@@ -1,0 +1,43 @@
+header{
+  height: 20vh;
+}
+#games,#weapons, body{
+  background-color: antiquewhite;
+ 
+}
+
+#games{
+ height: 59vh;
+}
+#weapons{
+
+}
+.choices, .logo, .versus__img{
+  width: 30%;
+}
+
+
+@media screen and (max-width: 767px) {
+  .choices, .logo{
+    width: 60%;
+  }
+  .versus__img{
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #playerName, .card-title {
+    font-size: large;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width:1023px){
+
+  .versus__img{
+    width: 60%;
+  }
+}
+
+

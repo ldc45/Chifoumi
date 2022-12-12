@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+  <title>Chifoumi</title>
+</head>
+
+<body>
+
+  <header class="py-3 bg-light ">
+    <div class=" d-flex justify-content-between align-items-center ">
+      <a href="index.html" class="ms-5 me-5 text-dark text-decoration-none">
+        <img src="assets/rock-paper-scissors.png" alt="" class="logo">
+      </a>
+      <h1 class="me-xxl-3 ">Rock Paper Scissors Game</h1>
+    </div>
+
+  </header>
+  <section id="games" class="d-flex flex-column justify-content-center">
+
+    <!-- Entête des scores -->
+    <div class="container text-center">
+      <div class="col ">
+        <h2 class="text-light bg-dark d-inline-block">Nombre de manches : <span class="text-success "> 5</span> </h2>
+      </div>
+    </div>
+
+    <div class="container  mt-4">
+      <div class="row d-flex justify-content-center">
+
+        <!-- Player  -->
+        <div class="card p-0 col-3 col-lg-2 " >
+          <img src="assets/imgPlayer.png" class="card-img-top" alt="imgPlayer">
+          <div class="card-body bg-light text-center">
+            <p class="card-title fw-bold d-inline-block" id="playerName">Player</p>
+            <p id="playerScore" class="text-danger fw-bolder">0</p>
+          </div>
+        </div>
+
+          <!-- Versus information -->
+        <div class=" col-6 col-lg-8 mt-4">
+          <p class="text-center fs-4">VS</p>
+          <div class="container ">
+            <div class="row text-center">
+              <div class="col"><img id="playerMove" src="" class="choices versus__img"></div>
+              <div class="col"><img id="computerMove" src="" class="choices versus__img"></div>
+              <div class="col-12 mt-5"><h4 id="textResult" class="text-center text-primary"></h4></div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Computer -->
+        <div class="card p-0 col-3 col-lg-2" >
+          <img src="assets/imgComputer.png" class="card-img-top" alt="imgComputer">
+          <div class="card-body bg-light text-center">
+            <p class="card-title fw-bold d-inline-block">JsonBot</p>
+            <p id="computerScore" class="text-danger fw-bolder">0</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="weapons">
+        <div class="container">
+      <div class="row text-center bg-light rounded-3 m-0 p-0 g-0">
+        <div class="col-12 mb-4"><h3>Choisissez votre arme ⚔!</h3></div>
+        <div class="col-4">
+          <input class="choices" type="image" src="assets/rock.png" value="Rock" />
+        </div>
+        <div class="col-4">
+          <input class="choices" type="image" src="assets/paper.png" value="Paper" />
+        </div>
+        <div class="col-4">
+          <input class="choices" type="image" src="assets/scissors.png" value="Scissors" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  <script src="games.js"></script>
+</body>
+
+</html>
