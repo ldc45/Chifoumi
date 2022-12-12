@@ -11,9 +11,16 @@ Les résultats possibles sont :
 S'il y a égalité, la partie se termine par un match nul.
 
 
-A vous de jouer !! ⚔
+A vous de jouer !! 
 
 Cliquez sur le lien ci-dessous pour démarrer une partie ! :
-<input type="button" value="">
-<button><a href ="https://ldc45.github.io/chifoumi"></a></button>   
+## <a href="https://ldc45.github.io/chifoumi" style="font-size:120px">Jouer ⚔</a>
+
+
+<img src="https://user-images.githubusercontent.com/98770184/207039046-4d2ef1cd-ebe4-4e0f-96d2-b9c4afc95d30.png" alt="image" width="500"/>
+
+
+
+
+
 
