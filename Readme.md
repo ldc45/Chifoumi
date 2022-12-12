@@ -16,9 +16,9 @@ A vous de jouer !!
 ## Cliquez sur le lien ci-dessous pour démarrer une partie ! :
 ## <a href="https://ldc45.github.io/chifoumi" style="font-size:120px">Jouer ⚔</a>
 
-
+ <p align="center">
 <img src="https://user-images.githubusercontent.com/98770184/207039046-4d2ef1cd-ebe4-4e0f-96d2-b9c4afc95d30.png" alt="image" width="500"/>
-
+</p>
 
 
 
