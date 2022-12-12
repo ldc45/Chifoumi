@@ -1,4 +1,4 @@
-#Pierre, papier ou ciseaux
+# Pierre, papier ou ciseaux
 
 Rock papier ciseaux est un jeu classique à deux joueurs. Chaque joueur choisit soit pierre, papier ou ciseaux. Les objets sont comparés et le joueur qui choisit l'objet le plus puissant gagne.
 
