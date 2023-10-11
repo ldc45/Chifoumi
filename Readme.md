@@ -6,7 +6,7 @@ Les résultats possibles sont :
 
 + La pierre détruit les ciseaux.
 + Les ciseaux coupent le papier.
-+ Le papier recouvre la roche.
++ Le papier recouvre la roche...
 
 S'il y a égalité, la partie se termine par un match nul.
 
